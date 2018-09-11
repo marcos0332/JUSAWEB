@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS salud;
+create database salud;
+use salud;
+
+create table servicios(
+empresa varchar (30) not null,
+nservicio varchar(30),
+ids int primary key not null,
+infos text);
+
+create table Pacientes(
+nombre varchar(30),
+id int primary key not null,
+info text,
+empresa varchar (30));

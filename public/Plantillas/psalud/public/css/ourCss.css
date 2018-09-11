@@ -1,0 +1,26 @@
+.bg-black {
+
+    background-color: black;
+
+}
+
+.bg-edit {
+
+    background-color: grey;
+
+}
+
+.navbar {
+
+    margin-left: -15px;
+
+    margin-right: -15px;
+
+
+}
+.containFull {
+    width: 100%;
+    max-width:1000px;
+    margin: 20px 0;
+    text-align: center;
+}
